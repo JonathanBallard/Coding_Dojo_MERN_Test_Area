@@ -4,4 +4,14 @@
     font-size: 3em;
 }
 
+.leftCol{
+    width: 40%;
+    display: inline-block;
+    margin: 15px 15px 5px 5px;
+}
 
+.rightCol{
+    width: 40%;
+    display: inline-block;
+    margin: 15px 15px 5px 5px;
+}

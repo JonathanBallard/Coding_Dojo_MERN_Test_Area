@@ -10,8 +10,12 @@ let BaseModule = props => {
     return(
         <div className='BaseModule'>
             <h1>Different Test Components Here!</h1>
-            <ModuleIdeas></ModuleIdeas>
-            <CurrentModules></CurrentModules>
+            <div className='leftCol'>
+                <ModuleIdeas></ModuleIdeas>
+            </div>
+            <div className="rightCol">
+                <CurrentModules></CurrentModules>
+            </div>
         </div>
     )
 

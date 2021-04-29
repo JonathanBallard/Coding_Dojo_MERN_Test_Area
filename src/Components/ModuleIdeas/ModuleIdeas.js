@@ -6,7 +6,7 @@ let ModuleIdeas = props => {
 
 return (
     <div className='ModuleIdeas'>
-        <h3>Module Ideas</h3>
+        <h5>Module Ideas</h5>
         <ul className='ideaList'>
             <Idea ideaTitle="Test Title"></Idea>
         </ul>
