@@ -1,6 +1,11 @@
 
 .CurrentModules {
     background-color: rgb(100, 4, 4);
+    padding: 15px;
 }
 
+.moduleList {
+    list-style-type: circle;
+    list-style-image: url("https://www.freeiconspng.com/img/835");
+}
 
