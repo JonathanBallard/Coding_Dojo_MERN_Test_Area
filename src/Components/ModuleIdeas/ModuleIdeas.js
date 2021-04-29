@@ -2,6 +2,8 @@ import React from 'react';
 import './ModuleIdeas.css';
 import Idea from './Idea/Idea';
 
+// TODO Needs a method of CRUD new Idea components
+
 let ModuleIdeas = props => {
 
 return (

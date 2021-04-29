@@ -2,6 +2,8 @@ import React from 'react'
 import './CurrentModules.css';
 import Module from './Module/Module';
 
+// TODO Needs a method of CRUD new CurrentModule components
+
 let CurrentModules = props => {
 
     return (

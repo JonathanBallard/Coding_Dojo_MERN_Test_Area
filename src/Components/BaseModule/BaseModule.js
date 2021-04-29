@@ -3,7 +3,7 @@ import './BaseModule.css';
 import ModuleIdeas from '../ModuleIdeas/ModuleIdeas';
 import CurrentModules from '../CurrentModules/CurrentModules';
 
-// this will hold a bar to traverse between test components
+// TODO this will hold a bar to traverse between test components
 
 let BaseModule = props => {
 
