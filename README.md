@@ -6,16 +6,21 @@ This project is meant to be a home base for React projects to play with. I plan 
 
 ## Future Plans
 
-* 
+* Integrate RSS feeds
+* Integrate Podcasts
+* Youtube Videos
 
 ## TODO Sections
 
 ### BaseModule Section
+
 * Project description page with notes and links and readme
 
 ### CurrentModules Section
+
 * CRUD
 
 ### Ideas Section
+
 * CRUD
 
