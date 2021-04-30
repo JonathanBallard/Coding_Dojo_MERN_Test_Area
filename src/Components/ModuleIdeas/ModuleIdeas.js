@@ -6,6 +6,13 @@ import Idea from './Idea/Idea';
 
 let ModuleIdeas = props => {
 
+    let createIdea = (title, description) => {
+
+        return(
+            <Idea ideaTitle={ title } desc={ description }></Idea>
+        )
+    }
+
 return (
     <div className='ModuleIdeas'>
         <h5>Module Ideas</h5>
