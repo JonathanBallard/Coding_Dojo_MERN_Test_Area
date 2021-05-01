@@ -1,4 +1,11 @@
 
 .ModuleIdeas {
     background-color: beige;
+    padding: 15px;
 }
+
+.ideaList {
+    list-style-type: circle;
+    /* list-style-image: ; */
+}
+
