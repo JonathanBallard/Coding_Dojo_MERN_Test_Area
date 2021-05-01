@@ -15,12 +15,19 @@ This project is meant to be a home base for React projects to play with. I plan 
 ### BaseModule Section
 
 * Project description page with notes and links and readme
+* 
 
 ### CurrentModules Section
 
 * CRUD
+* 
 
 ### Ideas Section
 
 * CRUD
+* 
 
+### NavBar
+
+* Needs to auto-populate with new modules and ideas
+* 
