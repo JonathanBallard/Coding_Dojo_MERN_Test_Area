@@ -5,19 +5,37 @@ import NavItem from './NavItem/NavItem';
 
 let NavBar = props => {
 
-    let listOfNavItems = [];
+    let listIdeas = [];
+    let listModules = [];
 
-    let createNav = (name, route) => {
+    let listNavItemIdeas = [];
+    let listNavItemModules = [];
+
+    let createNavItem = (name, route, isIdeaBool) => {
         return (
-            <NavItem navName={ name } navRoute={ route }></NavItem>
+            <NavItem navName={ name } isIdea={ isIdeaBool } navRoute={ route }></NavItem>
         )
     }
 
-    let deleteNav = () => {
-
+    let deleteNav = (name, isIdeaBool) => {
+        if(isIdeaBool){
+            //locate correct idea for deletion
+        }
     }
 
-    // When link/name passed back here then createNav
+
+    // create array of all Idea NavItem
+    for(let i = 0; i < listIdeas.length; i++){
+        listNavItemIdeas.push(createNavItem(listIdeas[i].name, listIdeas[i].route, listIdeas[i].isIdeaBool));
+    }
+
+    // create array of all Module NavItem
+    for(let i = 0; i < listModules.length; i++){
+        listNavItemModules.push(createNavItem(listModules[i].name, listIdeas[i].route, listIdeas[i].isIdeaBool));
+    }
+
+
+    // When link/name passed back here from create Idea/Module then createNav
     // When same link/name passed back, then deleteNav
 
 
