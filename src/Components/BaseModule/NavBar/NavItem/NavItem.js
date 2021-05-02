@@ -5,7 +5,7 @@ let NavItem = props => {
 
     if(props.isIdea){
         return (
-            <div className='NavItem idea'>
+            <div className='NavItem idea btn-primary'>
                 <a href={ props.navRoute }>{ props.navName }</a>
             </div>
         )

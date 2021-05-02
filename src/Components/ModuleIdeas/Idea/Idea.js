@@ -6,8 +6,8 @@ let Idea = props => {
 
     return (
         <li className='idea'>
-            <h5 className='ideaTitle'>{ props.ideaTitle }</h5>
-
+            <h5 className='ideaTitle h5'>{ props.ideaTitle }</h5>
+            <p className='ideaDescription'>{ props.desc }</p>
         </li>
     )
 }

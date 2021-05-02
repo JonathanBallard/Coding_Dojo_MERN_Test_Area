@@ -6,4 +6,12 @@
     color: rgb(219, 46, 127);
 }
 
+.ideaTitle{
+    font-weight: bold;
+    color: goldenrod;
+}
 
+.ideaDescription{
+    font-weight: normal;
+    color: olive;
+}

@@ -17,7 +17,7 @@ return (
     <div className='ModuleIdeas'>
         <h5>Module Ideas</h5>
         <ul className='ideaList'>
-            <Idea ideaTitle="Test Title"></Idea>
+            <Idea ideaTitle="Test Idea Title" desc="Description for Test Idea"></Idea>
         </ul>
     </div>
 );
