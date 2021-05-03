@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
+import { usePopper } from 'react-popper';
 import './NavBar.css';
 import NavItem from './NavItem/NavItem';
 
@@ -81,11 +82,24 @@ let NavBar = props => {
     return (
         <div className='NavBar'>
             <ul className="nav nav-tabs">
-                <NavItem navName='Test' navRoute='/test' isIdea='true'></NavItem>
-                { listNavItemIdeas }
-                { listNavItemModules }
-                { props.children }
+                <li role='presentation' className='dropdown'>
+                    <button className="dropBtn btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    Ideas <span className="caret"></span>
+                    </button>
+                    <ul className='dropdown-menu' aria-labelledby='dropdownMenuButton'>
+                        { listNavItemIdeas }
+                    </ul>
+                </li>
+                <li role='presentation' className='dropdown'>
+                    <button className="dropBtn btn btn-success dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    Modules <span className="caret"></span>
+                    </button>
+                    <ul className='dropdown-menu'>
+                        { listNavItemModules }
+                    </ul>
+                </li>
             </ul>
+            { props.children }
         </div>
     )
 }
