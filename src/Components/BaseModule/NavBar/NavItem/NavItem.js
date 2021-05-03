@@ -5,16 +5,16 @@ let NavItem = props => {
 
     if(props.isIdea){
         return (
-            <div className='NavItem idea btn-primary'>
+            <li data-key={ props.key } className='NavItem idea btn-primary'>
                 <a href={ props.navRoute }>{ props.navName }</a>
-            </div>
+            </li>
         )
     }
     else {
         return (
-            <div className='NavItem module'>
+            <li data-key={ props.key } className='NavItem module'>
                 <a href={ props.navRoute }>{ props.navName }</a>
-            </div>
+            </li>
         )
     }
 }

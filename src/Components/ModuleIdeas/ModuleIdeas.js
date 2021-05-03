@@ -5,9 +5,8 @@ import Idea from './Idea/Idea';
 // TODO Needs a method of CRUD new Idea components
 
 let ModuleIdeas = props => {
-
+    
     let createIdea = (title, description) => {
-
         return(
             <Idea ideaTitle={ title } desc={ description }></Idea>
         )
@@ -23,6 +22,6 @@ return (
 );
 }
 
-export default ModuleIdeas;
 
+export default ModuleIdeas;
 
