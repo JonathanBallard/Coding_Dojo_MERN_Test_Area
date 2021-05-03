@@ -5,6 +5,32 @@
 }
 
 .dropBtn{
-    margin: 20px;
-    padding: 25px;
+    margin: auto;
+    padding: 20px 20px 10px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.dropdown{
+    max-height: 100px;
+}
+
+ul.dropdown-menu.show{
+    padding: 0px;
+}
+
+.homeBtn{
+    min-height: 40px;
+    padding: 20px 20px 10px;
+}
+
+.icon{
+    display: block;
+    padding: 4px;
+    margin: 10px;
+}
+
+.homeText{
+    font-size: 24px;
+    
 }

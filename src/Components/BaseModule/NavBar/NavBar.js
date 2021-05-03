@@ -82,20 +82,25 @@ let NavBar = props => {
     return (
         <div className='NavBar'>
             <ul className="nav nav-tabs">
+
+                    <div className='homeBtn'>
+                        <a className='btn btn-danger homeText' href='/'>Homepage<i className="icon fas fa-home"></i></a>
+                    </div>
+
                 <li role='presentation' className='dropdown'>
-                    <button className="dropBtn btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <button className="dropBtn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                     Ideas <span className="caret"></span>
                     </button>
-                    <ul className='dropdown-menu' aria-labelledby='dropdownMenuButton'>
+                    <ul className='dropdown-menu'>
                         { listNavItemIdeas }
                     </ul>
                 </li>
                 <li role='presentation' className='dropdown'>
-                    <button className="dropBtn btn btn-success dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <button className="dropBtn btn-success dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                     Modules <span className="caret"></span>
                     </button>
                     <ul className='dropdown-menu'>
-                        { listNavItemModules }
+                        {listNavItemModules}
                     </ul>
                 </li>
             </ul>

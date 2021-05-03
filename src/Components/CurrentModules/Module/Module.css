@@ -1,10 +1,18 @@
 
 
-.Module {
+
+.Module{
     background-color: rgb(43, 9, 75);
     padding: 10px;
     color: white;
 }
 
+.moduleTitle{
+    font-weight: bold;
+    color: goldenrod;
+}
 
-
+.moduleDescription{
+    font-weight: normal;
+    color: olive;
+}

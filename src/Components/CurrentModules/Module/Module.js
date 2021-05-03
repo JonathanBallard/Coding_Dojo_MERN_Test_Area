@@ -5,7 +5,8 @@ let Module = props => {
 
     return (
         <li className='Module'>
-            <h6>{props.moduleTitle}</h6>
+            <h6 className='moduleTitle'>{props.moduleTitle}</h6>
+            <p className='moduleDescription'>{ props.moduleDescription }</p>
         </li>
         )
 }
