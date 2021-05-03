@@ -84,20 +84,20 @@ let NavBar = props => {
             <ul className="nav nav-tabs">
 
                     <div className='homeBtn'>
-                        <a className='btn btn-danger homeText' href='/'>Homepage<i className="icon fas fa-home"></i></a>
+                        <a className='btn btn-danger homeText' href='/'><i className="icon fas fa-home"></i>Homepage</a>
                     </div>
 
                 <li role='presentation' className='dropdown'>
-                    <button className="dropBtn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    Ideas <span className="caret"></span>
+                    <button className="dropBtn btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-lightbulb icon"></i> Ideas <span className="caret"></span>
                     </button>
                     <ul className='dropdown-menu'>
                         { listNavItemIdeas }
                     </ul>
                 </li>
                 <li role='presentation' className='dropdown'>
-                    <button className="dropBtn btn-success dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    Modules <span className="caret"></span>
+                    <button className="dropBtn btn btn-success dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-archive icon"></i> Modules <span className="caret"></span>
                     </button>
                     <ul className='dropdown-menu'>
                         {listNavItemModules}
