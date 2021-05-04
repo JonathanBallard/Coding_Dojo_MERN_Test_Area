@@ -18,15 +18,26 @@ let NavBar = props => {
         )
     }
 
-    let deleteNav = (name, isIdeaBool) => {
+    let deleteNavItem = (name, isIdeaBool) => {
         if(isIdeaBool){
             //locate correct idea for deletion
         }
     }
 
 
-    // When link/name passed back here from create Idea/Module then createNav
+    // When link/name passed back here from create Idea/Module then createNavItem
     // When same link/name passed back, then deleteNav
+    // run navHandler on button, pass it down in props?
+
+
+    let navHandler = (obj) => {
+        if(obj.delete){
+            deleteNavItem(obj.name, obj.ideaBool);
+        }
+        else {
+            createNavItem(obj.name, obj.route, obj.ideaBool, obj.keyIn)
+        }
+    }
 
 
 
@@ -100,7 +111,7 @@ let NavBar = props => {
                     <i class="fas fa-archive icon"></i> Modules <span className="caret"></span>
                     </button>
                     <ul className='dropdown-menu'>
-                        {listNavItemModules}
+                        { listNavItemModules }
                     </ul>
                 </li>
             </ul>
