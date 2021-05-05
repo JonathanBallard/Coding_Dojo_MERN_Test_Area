@@ -8,10 +8,14 @@
 
 .ideaTitle{
     font-weight: bold;
+    font-family: Hack;
     color: goldenrod;
+    font-size: 26px;
 }
 
 .ideaDescription{
     font-weight: normal;
-    color: olive;
+    font-family: Hack;
+    color: rgb(184, 139, 27);
+    font-size: 16px;
 }

@@ -91,7 +91,7 @@ let NavBar = props => {
 
 
     return (
-        <div className='NavBar'>
+        <div className='NavBar fixed-top'>
             <ul className="nav nav-tabs">
 
                     <div className='homeBtn'>
@@ -115,6 +115,7 @@ let NavBar = props => {
                     </ul>
                 </li>
             </ul>
+            <div className='folderBar'></div>
             { props.children }
         </div>
     )

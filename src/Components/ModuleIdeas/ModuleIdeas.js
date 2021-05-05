@@ -14,7 +14,7 @@ let ModuleIdeas = props => {
 
 return (
     <div className='ModuleIdeas'>
-        <h5>Module Ideas</h5>
+        <h5 className=''>Module Ideas</h5>
         <ul className='ideaList'>
             <Idea ideaTitle="Test Idea Title" desc="Description for Test Idea"></Idea>
         </ul>
